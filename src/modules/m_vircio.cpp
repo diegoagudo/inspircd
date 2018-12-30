@@ -35,6 +35,9 @@
 #include "inspircd.h"
 #include <stdarg.h>
 
+#define ZOMBIE_MESSAGE(source) source->WriteServ("NOTICE %s :*** \002Atenção:\002 É necessário que você registre ou identifique-se junto ao NickServ para poder entrar nos canais ou falar com alguém. Para registrar seu nick, digite: \002/NICKSERV REGISTER senha email\002", source->nick.c_str());
+#define NICKSERV_NAME "nickserv"
+#define ZOMBIE_CHAN "#vircio"
 /**
  * User mode +Z - mark a user as Zombie / Gringo
  */
@@ -46,15 +49,20 @@ public:
 
 	ModeAction OnModeChange(User* source, User* dest, Channel* channel, std::string &parameter, bool adding)
 	{
-		if (IS_LOCAL(source))
+		if (!IS_LOCAL(source))
 		{
 			if (dest->IsModeSet('r'))
 				return MODEACTION_DENY;
 
 			if ((adding != dest->IsModeSet('Z')))
 			{
-				source->WriteServ("NOTICE %s :*** \002Atenção:\002 É necessário que você registre ou identifique-se junto ao NickServ para poder entrar nos canais.", source->nick.c_str());
+				ZOMBIE_MESSAGE(source);
 				dest->SetMode('Z',adding);
+
+                if (IS_LOCAL(dest)) {
+                    Channel::JoinUser(dest, ZOMBIE_CHAN, false, "", false, ServerInstance->Time());
+                }
+
 				return MODEACTION_ALLOW;
 			}
 		}
@@ -225,12 +233,22 @@ public:
 	ModResult OnUserPreMessage(User *user, void *dest, int target_type, std::string &text, char status, CUList &exempt_list)
 	{
 		if(user->IsModeSet('Z')) {
-			User* d = (User*)dest;
-			std::string nick = d->nick.c_str();
+            std::string nickChan = "";
 
-			if(nick == "NickServ")
+            if (target_type == TYPE_CHANNEL) {
+                Channel *d = (Channel *) dest;
+                nickChan = d->name.c_str();
+            } else {
+                User *d = (User *) dest;
+                nickChan = d->nick.c_str();
+            }
+
+            std::transform( nickChan.begin(), nickChan.end(), nickChan.begin(), ::tolower );
+
+			if(nickChan == NICKSERV_NAME || nickChan == ZOMBIE_CHAN)
 				return MOD_RES_PASSTHRU;
 
+			ZOMBIE_MESSAGE(user);
 			return MOD_RES_DENY;
 		}
 
@@ -240,6 +258,7 @@ public:
 	ModResult OnUserPreNotice(User* user,void* dest,int target_type, std::string &text, char status, CUList &exempt_list)
 	{
 		if(user->IsModeSet('Z')) {
+			ZOMBIE_MESSAGE(user);
 			return MOD_RES_DENY;
 		}
 
@@ -248,7 +267,13 @@ public:
 
     ModResult OnUserPreJoin(User* user, Channel* chan, const char* cname, std::string &privs, const std::string &keygiven) {
         if(user->IsModeSet('Z')) {
-			user->WriteServ("NOTICE %s :*** \002Atenção:\002 É necessário que você registre ou identifique-se junto ao NickServ para poder entrar nos canais.", user->nick.c_str());
+            std::string channame = cname;
+            std::transform( channame.begin(), channame.end(), channame.begin(), ::tolower );
+
+            if(channame == ZOMBIE_CHAN)
+                return MOD_RES_PASSTHRU;
+
+			ZOMBIE_MESSAGE(user);
             return MOD_RES_DENY;
         }
 
@@ -278,7 +303,7 @@ public:
 
 	Version GetVersion()
 	{
-		return Version("Provides support for UnIRC Network user modes", VF_OPTCOMMON|VF_VENDOR);
+		return Version("Provides support for VIRCIO Network user modes", VF_OPTCOMMON|VF_VENDOR);
 	}
 };
 
