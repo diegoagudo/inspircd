@@ -10,47 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e972b9d-1310-440d-915a-e79af699c231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Instalacao" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/inspircd.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/ircd.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/ircops.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/links.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.censor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.filter" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.modules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.motd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.opermotd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.permchannels" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.pid" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.quotes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.regras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.roots" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.xline" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/m_ircops.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/aliases/anope.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/aliases/atheme.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/censor.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/filter.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/helpop-full.conf.example" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf/vIRCio.helpop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/helpop.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/inspircd.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/links.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/modules.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/modules/charybdis.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/modules/unrealircd.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/motd.txt.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/opermotd.txt.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/opers.conf.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/quotes.txt.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/conf/rules.txt.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/make/template/main.mk" beforeDir="false" afterPath="$PROJECT_DIR$/make/template/main.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/extra/m_geoip.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/m_pretenduser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_pretenduser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/m_requirectcp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_requirectcp.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/m_vircio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_vircio.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/win/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/win/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,26 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Instalacao">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -145,11 +86,10 @@
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="151" />
-    <option name="y" value="187" />
-    <option name="width" value="1260" />
-    <option name="height" value="687" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -163,6 +103,17 @@
             <path>
               <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
               <item name="inspircd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inspircd" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inspircd" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,24 +160,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546138802016</updated>
-      <workItem from="1546138803535" duration="9500000" />
+      <workItem from="1546138803535" duration="9556000" />
+      <workItem from="1546372372245" duration="240000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9500000" />
+    <option name="totallyTimeSpent" value="9796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24555735" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -234,10 +181,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,9 +219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/m_requirectcp.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/m_requirectcp.h" />
     <entry file="file://$PROJECT_DIR$/src/modules/m_pretenduser.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -405,17 +354,17 @@
     <entry file="file://$PROJECT_DIR$/src/modules/m_geoip.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Instalacao">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instalacao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
