@@ -1,6 +1,7 @@
 *~
 *.pem
 *.swp
+.idea/*
 
 /.config.cache
 /.modulemanager

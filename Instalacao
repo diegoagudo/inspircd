@@ -1,0 +1,27 @@
+############################################
+# VIRCIO ###################################
+############################################
+
+# Ativar módulos extras
+./configure --enable-extras=m_geoip.cpp,m_regex_pcre.cpp,m_ssl_openssl.cpp
+
+# Compilação
+    # 1. Etapa
+    ./configure
+
+    # 2. Path
+    /home/User/ircd
+
+    # 3. SSL / GNUTLS
+    Ative SSL e GNUTLS (não é necessário a geração das keys)
+
+    # 4. Final
+    make && make install
+
+# Configuração
+    # Arquivos a serem configurados
+    ircd.conf
+    links.conf
+
+    # Olines
+    Serão definidas na rotina de autalização automática

@@ -10,11 +10,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e972b9d-1310-440d-915a-e79af699c231" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/m_invisible.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/m_pretenduser.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Instalacao" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/inspircd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/ircd.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/ircops.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/links.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.censor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.filter" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.modules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.motd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.opermotd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.permchannels" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.quotes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.regras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.roots" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/conf/vIRCio.xline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/m_ircops.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/m_servprotect.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_servprotect.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/aliases/anope.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/aliases/atheme.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/censor.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/filter.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/helpop-full.conf.example" beforeDir="false" afterPath="$PROJECT_DIR$/docs/conf/vIRCio.helpop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/helpop.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/inspircd.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/links.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/modules.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/modules/charybdis.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/modules/unrealircd.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/motd.txt.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/opermotd.txt.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/opers.conf.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/quotes.txt.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/conf/rules.txt.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/template/main.mk" beforeDir="false" afterPath="$PROJECT_DIR$/make/template/main.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/extra/m_geoip.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/m_pretenduser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_pretenduser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/m_requirectcp.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_requirectcp.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/m_vircio.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/m_vircio.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/win/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/win/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,77 +61,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_vircio.cpp">
+        <entry file="file://$PROJECT_DIR$/Instalacao">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2997">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_chanprotect.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3567" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_servprotect.cpp">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_conn_join.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_invisible.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_requirectcp.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="84" column="29" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_pretenduser.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_devoice.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/modules/m_services_account.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="76" column="35" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commands/cmd_rehash.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="93" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="45">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -114,15 +92,28 @@
       <find>autojoin</find>
       <find>IsModeSet('k')</find>
       <find>OnUserPreMessage(</find>
-      <find>accepted</find>
+      <find>insp20</find>
+      <find>You are building a deve</find>
+      <find>You are building a development</find>
+      <find>git checkout</find>
+      <find>git</find>
+      <find>branch</find>
       <find>zombiecha</find>
+      <find>accepted</find>
+      <find>heck that the user actually wants t</find>
+      <find>ModuleVircioUMode</find>
+      <find>cmdircop</find>
+      <find>docs/conf/</find>
     </findStrings>
     <replaceStrings>
       <replace>ModuleVircioUMode</replace>
       <replace>ZOMBIE_MESSAGE</replace>
+      <replace>ModuleIRCops</replace>
+      <replace>ModuleVircio</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -136,15 +127,27 @@
         <option value="$PROJECT_DIR$/src/modules/m_services_account.cpp" />
         <option value="$PROJECT_DIR$/src/commands/cmd_rehash.cpp" />
         <option value="$PROJECT_DIR$/src/modules/m_requirectcp.cpp" />
-        <option value="$PROJECT_DIR$/src/modules/m_vircio.cpp" />
         <option value="$PROJECT_DIR$/src/modules/m_servprotect.cpp" />
+        <option value="$PROJECT_DIR$/src/modules/m_ircops.cpp" />
+        <option value="$PROJECT_DIR$/src/modules/m_vircio.cpp" />
+        <option value="$PROJECT_DIR$/win/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/make/template/main.mk" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/ircd.conf" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.censor" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.opermotd" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.roots" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.filter" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/inspircd.conf" />
+        <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.modules" />
+        <option value="$PROJECT_DIR$/Instalacao" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="42" />
+    <option name="x" value="151" />
+    <option name="y" value="187" />
     <option name="width" value="1260" />
     <option name="height" value="687" />
   </component>
@@ -161,17 +164,6 @@
               <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
               <item name="inspircd" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inspircd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inspircd" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -185,7 +177,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules" />
+      <recent name="$PROJECT_DIR$/docs/conf" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docs/conf" />
       <recent name="$PROJECT_DIR$/src/modules" />
     </key>
   </component>
@@ -211,12 +209,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546138802016</updated>
-      <workItem from="1546138803535" duration="5542000" />
+      <workItem from="1546138803535" duration="9500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5542000" />
+    <option name="totallyTimeSpent" value="9500000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="725" extended-state="6" />
@@ -291,24 +289,133 @@
     <entry file="file://$PROJECT_DIR$/src/modules/m_invisible.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/m_requirectcp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="84" column="29" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/m_vircio.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2997">
-          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/m_servprotect.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.config.cache">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.inspircd.plist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inspircd_config.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configure">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="839" column="29" selection-start-line="839" selection-start-column="29" selection-end-line="839" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/m_ircops.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2143">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/ca.pem">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/m_vircio.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="147" column="49" selection-start-line="147" selection-start-column="48" selection-end-line="147" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/ircd.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/ircops.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/links.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.censor">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.motd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.opermotd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.regras">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.roots">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.xline">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.filter">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/inspircd.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1042">
+          <caret line="217" column="95" selection-start-line="217" selection-start-column="95" selection-end-line="217" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conf/vIRCio.modules">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4765">
+          <caret line="612" column="25" selection-start-line="612" selection-start-column="25" selection-end-line="612" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/m_requirectcp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/modules/m_geoip.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Instalacao">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>

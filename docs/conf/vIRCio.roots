@@ -1,0 +1,109 @@
+################################
+# id: vircio-config-ok         #
+################################
+# Nao edite nada neste arquivo #
+################################
+#    Arquivo de configuracao   #
+################################
+
+#
+# OBS.: Se alterar o modelo padrao deste arquivo
+# adotado por toda Rede vIRCio vai causar incom-
+# patibilidade e  se refletira em todos os IRCds
+# linkados na rede. Caso isso ocorra (alteracoes
+# nao autorizadas) o servidor devera ser automa-
+# ticamente deslinkado da Rede vIRCio.net
+# Att, RooT @ vIRCio.net
+#
+
+#
+# Classes
+#
+
+# RooT
+<class name="NetAmin" commands="*" privs="*" usermodes="*" chanmodes="*">
+
+# Shutdown
+<class
+     name="Shutdown"
+     commands="DIE RESTART REHASH LOADMODULE UNLOADMODULE RELOADMODULE GLOADMODULE GUNLOADMODULE GRELOADMODULE"
+     privs="users/auspex channels/auspex servers/auspex users/mass-message users/flood/no-throttle users/flood/increased-buffers"
+     usermodes="*"
+     chanmodes="*">
+
+# SA Commands
+<class name="SACommands" commands="SAJOIN SAPART SANICK SAQUIT SATOPIC SAKICK SAMODE OJOIN">
+
+# ServerLink
+<class name="ServerLink" commands="CONNECT SQUIT RCONNECT RSQUIT MKPASSWD ALLTIME SWHOIS JUMPSERVER LOCKSERV UNLOCKSERV" usermodes="*" chanmodes="*" privs="servers/auspex">
+
+# BanControl
+<class name="BanControl" commands="KILL GLINE KLINE ZLINE QLINE ELINE TLINE RLINE CHECK NICKLOCK NICKUNLOCK SHUN CLONES CBAN CLOSE" usermodes="*" chanmodes="*">
+
+# OperChat
+<class name="OperChat" commands="WALLOPS GLOBOPS" usermodes="*" chanmodes="*" privs="users/mass-message">
+
+# HostCloak
+<class name="HostCloak" commands="SETHOST SETIDENT SETIDLE CHGNAME CHGHOST CHGIDENT" usermodes="*" chanmodes="*" privs="users/auspex">
+
+
+#
+# Tipos
+#
+
+# RooT
+<type name="NetAdmin"
+      classes="NetAmin"
+     #vhost="RooT.vIRCio.net"
+      modes="+sWkh +AaKklLOodxtgGv">
+
+# NetAdmin
+<type
+    name="Admin"
+    classes="SACommands OperChat BanControl HostCloak Shutdown ServerLink"
+    maxchans="9999"
+   #vhost="NetAdmin.vIRCio.net"
+    modes="+sWh +AaCcKkQqlLOodxXtfgGnNJjv">
+
+
+# GlobalOp
+<type 
+    name="Oper" 
+    classes="OperChat BanControl HostCloak ServerLink" 
+   #vhost="ircop.vIRCio.net"
+    modes="+Wh">
+
+# Helper
+<type 
+    name="Helper" 
+    classes="HostCloak" 
+   #vhost="Helper.vIRCio.net"
+    modes="+Wh">
+
+
+
+#
+# Senhas dos Administradores
+# Somente RooTs
+#
+
+# NETADMINS
+<oper name="cirinho" password="45b96927dc5a95214e8abba671b126f7040dc0b46aee5736c0c8862ffe2d4a7e" hash="sha256" host="*@*" type="NetAdmin">
+#<oper name="Fabio" password="c31effd37bba4d13f9cf4825b10f59048aef85aae03135812286369e080e265c" hash="sha256" host="*@*" type="NetAdmin">
+<oper name="Zeca" password="36373ce0b064d4e8a47849d8462469898009d22be352d5df2f085029c4ee3b1d" hash="sha256" host="*@*" type="NetAdmin">
+<oper name="diego" password="28876b28e4b9285bd0f187686d212fcff442c3fc76c3c79229d6b9b2e0bd8159" hash="sha256" host="*@*" type="NetAdmin">
+<oper name="Leandro_Luiz" password="653e3550417a302a4f816c3437e0271fb5aefdd566af810034ad5682a383b0e9" hash="sha256" host="*@*" type="NetAdmin">
+<oper name="MrBoss" password="e3ebbc6c9832c467a41ad70d3aed7ff8aa6e4afe69ee629b025bf505d483d657" hash="sha256" host="*@*" type="NetAdmin">
+
+# ADMINS
+<oper name="mkdir" password="55b8053a3915bfa32d3547640a1c2e8889f08d48ad0ef40308bee32545ab771b" hash="sha256" host="*@*" type="Admin">
+<oper name="Guto" password="3296d5774143616143fc09922c217551d03293b4aafe9c017a4a24027144c949" hash="sha256" host="*@*" type="Admin">
+<oper name="Slowmotion" password="22273533e08d2e1869e883fcfd67c3526721784a5124824c5767b13ffb83fbd1" hash="sha256" host="*@*" type="Admin">
+<oper name="volcan" password="cb98e82f6dfeada5d4c583fab6a8642e37bc62716d91dc42ac4bc6c1f184c04a" hash="sha256" host="*@*" type="Admin">
+<oper name="rockcavera" password="3e7cd7e2995479aacb7d3b9102d147344482e09fd7877d39c3c9320504f88b39" hash="sha256" host="*@*" type="Admin">
+<oper name="luck_luc" password="7953b31b13dd808993d6ec25d55bee6ceb77c525becd99986d0ad402166a8a48" hash="sha256" host="*@*" type="Admin">
+<oper name="bot" password="89018cd5fbae48253a5cc896d7c7eb6ec3f24ff020d1fe05286ae68d42085428" hash="sha256" host="*@*" type="Admin">
+
+# OPERS
+<oper name="andrelmp" password="cd8ab481557105683f0af135545b5720e60542c5fd4be508241695e1c807b18a" hash="sha256" host="*@*" type="Oper">
+

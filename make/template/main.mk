@@ -238,9 +238,7 @@ install: target
 @ENDIF
 	-$(INSTALL) -m $(INSTMODE_BIN) @STARTSCRIPT@ $(BASE) 2>/dev/null
 	-$(INSTALL) -m $(INSTMODE_LIB) tools/gdbargs $(BASE)/.gdbargs 2>/dev/null
-	-$(INSTALL) -m $(INSTMODE_LIB) docs/conf/*.example $(CONPATH)/examples
-	-$(INSTALL) -m $(INSTMODE_LIB) docs/conf/aliases/*.example $(CONPATH)/examples/aliases
-	-$(INSTALL) -m $(INSTMODE_LIB) docs/conf/modules/*.example $(CONPATH)/examples/modules
+	-$(INSTALL) -m $(INSTMODE_LIB) docs/conf/* $(CONPATH)
 	@echo ""
 	@echo "*************************************"
 	@echo "*        INSTALL COMPLETE!          *"
