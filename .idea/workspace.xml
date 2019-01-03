@@ -11,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7e972b9d-1310-440d-915a-e79af699c231" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/make/template/main.mk" beforeDir="false" afterPath="$PROJECT_DIR$/make/template/main.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/m_geoip.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/extra/m_geoip.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/win/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/win/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/make/template/main.mk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="255" column="35" lean-forward="true" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,6 +58,7 @@
       <find>ModuleVircioUMode</find>
       <find>cmdircop</find>
       <find>docs/conf/</find>
+      <find>INSTALL COMPLETE!</find>
     </findStrings>
     <replaceStrings>
       <replace>ModuleVircioUMode</replace>
@@ -71,8 +85,6 @@
         <option value="$PROJECT_DIR$/src/modules/m_servprotect.cpp" />
         <option value="$PROJECT_DIR$/src/modules/m_ircops.cpp" />
         <option value="$PROJECT_DIR$/src/modules/m_vircio.cpp" />
-        <option value="$PROJECT_DIR$/win/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/make/template/main.mk" />
         <option value="$PROJECT_DIR$/docs/conf/conf/ircd.conf" />
         <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.censor" />
         <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.opermotd" />
@@ -82,6 +94,8 @@
         <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.modules" />
         <option value="$PROJECT_DIR$/Instalacao" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/make/template/main.mk" />
+        <option value="$PROJECT_DIR$/win/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -107,13 +121,20 @@
             <path>
               <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
               <item name="inspircd" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
               <item name="inspircd" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inspircd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="extra" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,14 +149,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/modules" />
-      <recent name="$PROJECT_DIR$/docs/conf" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docs/conf" />
       <recent name="$PROJECT_DIR$/src/modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/modules/extra" />
+      <recent name="$PROJECT_DIR$/src/modules" />
+      <recent name="$PROJECT_DIR$/docs/conf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -161,17 +183,18 @@
       <option name="presentableId" value="Default" />
       <updated>1546138802016</updated>
       <workItem from="1546138803535" duration="9556000" />
-      <workItem from="1546372372245" duration="240000" />
+      <workItem from="1546372372245" duration="811000" />
+      <workItem from="1546541572316" duration="371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9796000" />
+    <option name="totallyTimeSpent" value="10738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="725" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -245,15 +268,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.config.cache">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.inspircd.plist">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inspircd_config.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.config.cache" />
+    <entry file="file://$PROJECT_DIR$/org.inspircd.plist" />
+    <entry file="file://$PROJECT_DIR$/include/inspircd_config.h" />
     <entry file="file://$PROJECT_DIR$/configure">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -351,7 +368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/modules/m_geoip.cpp">
+    <entry file="file://$PROJECT_DIR$/src/modules/extra/m_geoip.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -365,6 +382,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make/template/main.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="255" column="35" lean-forward="true" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
         </state>
       </provider>
     </entry>
