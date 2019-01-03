@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e972b9d-1310-440d-915a-e79af699c231" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/make/template/main.mk" beforeDir="false" afterPath="$PROJECT_DIR$/make/template/main.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/m_geoip.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/extra/m_geoip.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/win/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/win/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/make/template/main.mk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="255" column="35" lean-forward="true" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
+            <state relative-caret-position="193">
+              <caret line="232" column="58" selection-start-line="232" selection-start-column="58" selection-end-line="232" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -59,6 +56,7 @@
       <find>cmdircop</find>
       <find>docs/conf/</find>
       <find>INSTALL COMPLETE!</find>
+      <find>docs/conf</find>
     </findStrings>
     <replaceStrings>
       <replace>ModuleVircioUMode</replace>
@@ -94,15 +92,16 @@
         <option value="$PROJECT_DIR$/docs/conf/conf/vIRCio.modules" />
         <option value="$PROJECT_DIR$/Instalacao" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/make/template/main.mk" />
         <option value="$PROJECT_DIR$/win/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/make/template/main.mk" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="660" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="620" />
     <option name="height" value="725" />
   </component>
   <component name="ProjectView">
@@ -117,6 +116,11 @@
             <path>
               <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
               <item name="inspircd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inspircd" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inspircd" type="b2602c69:ProjectViewProjectNode" />
@@ -184,17 +188,18 @@
       <updated>1546138802016</updated>
       <workItem from="1546138803535" duration="9556000" />
       <workItem from="1546372372245" duration="811000" />
-      <workItem from="1546541572316" duration="371000" />
+      <workItem from="1546541572316" duration="661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10738000" />
+    <option name="totallyTimeSpent" value="11028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="725" extended-state="0" />
+    <frame x="660" y="23" width="620" height="725" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,6 +218,26 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -387,8 +412,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/make/template/main.mk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="255" column="35" lean-forward="true" selection-start-line="255" selection-start-column="35" selection-end-line="255" selection-end-column="35" />
+        <state relative-caret-position="193">
+          <caret line="232" column="58" selection-start-line="232" selection-start-column="58" selection-end-line="232" selection-end-column="58" />
         </state>
       </provider>
     </entry>

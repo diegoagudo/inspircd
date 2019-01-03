@@ -230,6 +230,7 @@ install: target
 	@-$(INSTALL) -d -o $(INSTUID) -m $(INSTMODE_DIR) $(LOGPATH)
 	@-$(INSTALL) -d -m $(INSTMODE_DIR) $(BINPATH)
 	@-$(INSTALL) -d -m $(INSTMODE_DIR) $(MODPATH)
+	@-$(INSTALL) -d -m $(INSTMODE_DIR) $(CONPATH)/examples
 	[ "$(BUILDPATH)/bin/" -ef $(BINPATH) ] || $(INSTALL) -m $(INSTMODE_BIN) "$(BUILDPATH)/bin/inspircd" $(BINPATH)
 @IFNDEF PURE_STATIC
 	[ "$(BUILDPATH)/modules/" -ef $(MODPATH) ] || $(INSTALL) -m $(INSTMODE_LIB) "$(BUILDPATH)/modules/"*.so $(MODPATH)
