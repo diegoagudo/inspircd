@@ -56,7 +56,7 @@ public:
 
 			if ((adding != dest->IsModeSet('Z')))
 			{
-				ZOMBIE_MESSAGE(source);
+				ZOMBIE_MESSAGE(dest);
 				dest->SetMode('Z',adding);
 
                 if (IS_LOCAL(dest)) {
